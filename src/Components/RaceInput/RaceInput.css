@@ -1,0 +1,33 @@
+.race-input {
+    height: 60px;
+    margin-top: 6%;
+    transition: all ease-in-out 0.4s;
+    color: black;
+    align-items: center;
+
+}
+
+.form-group {
+    margin-bottom: 0!important;
+}
+
+.unit {
+    font-size:3vh;
+    padding-right: 1em;
+    padding-left: 0.2em;
+}
+
+.race-logo {
+    height: 100px;
+    overflow-y: visible;
+    z-index: 1;
+    position: absolute;
+    bottom:-30px;
+}
+
+.time-input {
+
+    padding-left: 1em;
+    display: flex;
+    
+}

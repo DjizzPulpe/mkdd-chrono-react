@@ -1,0 +1,19 @@
+.race-selector {
+    display: flex;
+    margin-bottom: 2vh;
+    margin-top: 0px;
+}
+
+.button-race-selector {
+    border-radius: 0 !important;
+    width: 100%;
+    border: 0px!important;
+    color:black !important;
+    font-weight: 500 !important;
+
+}
+.button-race-selector:focus, .button-race-selector:active  {
+    outline: none !important;
+    box-shadow: none !important;
+    /* transition: all ease-in-out 0.4s; */
+}

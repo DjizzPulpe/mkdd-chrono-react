@@ -1,0 +1,8 @@
+.grand-chelem-header {
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
