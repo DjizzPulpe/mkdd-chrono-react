@@ -11,7 +11,7 @@ class AppNavbar extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-          currentPath:window.location.href
+          path:"/hist"
         };
       }
     render() {
@@ -23,14 +23,23 @@ class AppNavbar extends React.Component {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
                 <Navbar.Collapse>
-                    <Nav className="mr-auto">
-                        <Nav.Link
-                            className={'active'}
-                            as={Link} 
-                            to="/hist">
-                        Home</Nav.Link>
+                    <Nav className="mr-auto" activeKey={window.location.pathname}>
+                        <Nav.Link as={Link} to="/hist" 
+                            className={this.state.path === "/hist" ? 'link active' : ''}
+                            onClick={(e)=>{this.setState({path:e.target.pathname})}}
+                        >Home
+                        </Nav.Link>
 
-                        <Nav.Link as={Link} to="/new" >New GC</Nav.Link>
+                        <Nav.Link as={Link} to="/new"
+                        className={this.state.path === "/new" ? 'link active' : ''}
+                        onClick={(e)=>{this.setState({path:e.target.pathname})}}
+                        >New GC</Nav.Link>
+
+                        <Nav.Link as={Link} to="/login"
+                        className={this.state.path === "/login" ? 'link active' : ''}
+                        onClick={(e)=>{this.setState({path:e.target.pathname})}}
+                        >Login</Nav.Link>
+                        
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

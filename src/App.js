@@ -1,16 +1,14 @@
 import './App.css';
 
-import Container from 'react-bootstrap/Container';
-
-import GrandChelem from './Components/GrandChelem/GrandChelem'
 import Navbar from './Components/Navbar/Navbar'
-
+import GrandChelem from './Components/GrandChelem/GrandChelem'
+import LoginBox from './Components/LoginBox/LoginBox'
+import Container from 'react-bootstrap/Container'
 import {
   BrowserRouter as Router,
   Route,
   Switch
 } from "react-router-dom";
-
 
 
 function App() {
@@ -19,7 +17,7 @@ function App() {
       {
       <>
         <Router>
-            <Navbar />
+            <Navbar/>
 
             <Container fluid className="main">
                 <Switch>
@@ -30,8 +28,12 @@ function App() {
                     <Route 
                         path="/new"  
                         render={(props) => (
-                            <GrandChelem {...props} playable={true} />
+                            <GrandChelem {...props} isPlayable={true} />
                           )}>
+                    </Route>
+
+                    <Route path="/login">
+                        <LoginBox />
                     </Route>
                 </Switch>   
             </Container>

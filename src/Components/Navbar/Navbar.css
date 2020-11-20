@@ -1,8 +1,20 @@
 .navbar {
+    margin-bottom: 2vh;
+    padding-bottom: 0 !important;
     background-color: #2B2B2B!important;
+    font-size: 1.3em;
 }
 
 /* .nav-link, .navbar-brand {
     color:white !important;
 } */
+
+.nav-link {
+    /* border-bottom: 2vh; */
+}
+
+.active {
+    /* color: red !important; */
+    border-bottom: white 2px solid;
+}
 

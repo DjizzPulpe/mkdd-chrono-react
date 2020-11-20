@@ -26,7 +26,7 @@ class RaceSelector extends React.Component {
                             opacity: this.props.currentRaceId === i ? 1 : 0.6
                         }}
                         onClick={e => {
-                            this.props.updateParent({id:Number(e.target.value), color:raceJSON[e.target.value].color})
+                            this.props.updateGrandChelem(Number(e.target.value), {color:raceJSON[e.target.value].color})
                         }}>
                         {raceJSON[i].tag.fr}
                     </Button>

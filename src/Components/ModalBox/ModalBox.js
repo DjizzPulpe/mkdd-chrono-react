@@ -19,7 +19,8 @@ class ModalBox extends React.Component {
     render() {
         return(
         <>
-        <Modal show={this.state.show}>
+        {/*animation={true} throw error in console*/}
+        <Modal show={this.state.show} animation={false}>
 
             <Modal.Header closeButton onClick={() => this.setState({show:false})}>
                 <Modal.Title>Modal heading</Modal.Title>

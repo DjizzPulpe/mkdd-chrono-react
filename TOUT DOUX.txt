@@ -1,1 +1,0 @@
-Voir pour mieux gerer la function resetGrandChelem 

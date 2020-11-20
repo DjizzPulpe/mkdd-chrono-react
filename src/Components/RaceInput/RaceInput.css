@@ -1,7 +1,7 @@
 .race-input {
     height: 60px;
     margin-top: 6%;
-    transition: all ease-in-out 0.4s;
+    /* transition: all ease-in-out 0.4s; */
     color: black;
     align-items: center;
 

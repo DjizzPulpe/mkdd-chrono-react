@@ -1,8 +1,6 @@
 import React from 'react';
 import './GrandChelemHeader.css'
 
-import moment from 'moment'
-
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
@@ -17,29 +15,20 @@ class GrandChelemHeader extends React.Component {
     }
 
     render() {
-        return(
-        <>
-        <Row className="grand-chelem-header">
-            <Col>Grand Chelem #999</Col>  
-            <Col>{
-                moment.duration(this.props.time).minutes() + "m " +
-                moment.duration(this.props.time).seconds() + "s " +
-                moment.duration(this.props.time).milliseconds() + "ms "
-            }</Col>
-            <Col>GrandChelem Diff</Col>
-            <Col xs={2}>{this.props.point} Pts</Col>
-            <Col xs={2}>{this.props.date}</Col>
-        </Row>
 
-        <Row className="grand-chelem-header float-right" >
+        let input
+        if(this.props.isPlayable){
+            input = <>
+            <Row className="grand-chelem-header float-right" >
+
             <Col lg="auto">
                 <Form.Check
                     className="switch"
                     type="switch"
-                    id="custom-switch-duo"
+                    id="custom-switch-solo"
                     label="Duo"
                     onChange={e => {
-                        this.setState({duo: e.target.ckecked})
+                        this.props.updateGrandChelem({solo: !e.target.checked})
                     }}/>
                 <Form.Check
                     className="switch"
@@ -47,10 +36,9 @@ class GrandChelemHeader extends React.Component {
                     id="custom-switch-mirror"
                     label="Mirror"
                     onChange={e => {
-                        this.setState({mirror: e.target.ckecked})
+                        this.props.updateGrandChelem({mirror: e.target.checked})
                     }}/>
             </Col>
-
 
             <Col sm="auto">
                 <Button 
@@ -63,6 +51,28 @@ class GrandChelemHeader extends React.Component {
                 <Button disabled={this.props.isFinished ? false : true}> Save </Button>
             </Col>
         </Row>
+            </>
+        }
+
+
+        return(
+        <>
+        <Row className="grand-chelem-header">
+            <Col>Grand Chelem {
+                this.props.solo && !this.props.mirror ? "Solo #" + this.props.count.solo :
+                this.props.solo && this.props.mirror ? "SoloM #" + this.props.count.soloMirror :
+                !this.props.solo && !this.props.mirror ? "Duo #" + this.props.count.duo : "DuoM #" + this.props.count.duoMirror
+            }</Col>  
+            <Col>{
+                this.props.time
+            }</Col>
+            <Col style={{color:this.props.diffColor}}>{this.props.diff}</Col>
+            <Col xs={2}>{this.props.point} Pts</Col>
+            <Col xs={2}>{this.props.date}</Col>
+        </Row>
+
+        {input}
+
         </>
     )}
 }

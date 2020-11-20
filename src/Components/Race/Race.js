@@ -13,12 +13,12 @@ class Race extends React.Component {
 
     render(){
         return(
-            <Row style={{opacity:this.props.opacity}}>
+            <Row className="race-row" style={{opacity:this.props.opacity}}>
                 <Col style={{color:this.props.color}}>{this.props.name}</Col>
                 <Col>{this.props.player}</Col>
                 <Col>{this.props.time}</Col>
-                <Col>{this.props.diff}</Col>
-                <Col>{this.props.point} Pts</Col>
+                <Col style={{color:this.props.diffColor}}>{this.props.diff}</Col>
+                <Col>{this.props.point}</Col>
                 <Col>{this.props.item}</Col>
             </Row>
         )

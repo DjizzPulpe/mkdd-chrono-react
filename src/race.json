@@ -2,7 +2,7 @@
       {
             "tag":{"fr":"CL", "en":"LC", "jp":"LC"},
             "name":{"fr":"Circuit Luigi", "en":"Luigi Circuit", "jp":"ルイージサーキット"},
-            "color":"#99ff99",
+            "color":"#4ABD31",
             "item":["chomp"],
             "tavid":{
                   "race":"https://www.youtube.com/watch?v=cTpaWRJWHWI",
@@ -55,7 +55,7 @@
       {
             "tag":{"fr":"PP", "en":"PB", "jp":"PB"},
             "name":{"fr":"Plage Peach", "en":"Peach Beach", "jp":"ピーチビーチ"},
-            "color":"#99ebff",
+            "color":"#FF869C",
             "item":["cataquack"],
             "tavid":{
                   "race":"https://www.youtube.com/watch?v=c2_FdYmc3zQ",
@@ -108,7 +108,7 @@
       {
             "tag":{"fr":"PB", "en":"BP", "jp":"BP"},
             "name":{"fr":"Parc Baby", "en":"Baby Park", "jp":"ベビィパーク"},
-            "color":"#33CDFF",
+            "color":"#1EB2F7",
             "item":[],
             "tavid":{
                   "race":"https://www.youtube.com/watch?v=D634TT0KZqw",
@@ -161,7 +161,7 @@
       {
             "tag":{"fr":"DSS", "en":"DDD", "jp":"DDD"},
             "name":{"fr":"Desert Sec Sec", "en":"Dry Dry Desert", "jp":"カラカラさばく"},
-            "color":"#FFE233",
+            "color":"#FFB521",
             "item":["pokey"],
             "tavid":{
                   "race":"https://www.youtube.com/watch?v=qh3Gh3CyHMM",
@@ -214,7 +214,7 @@
       {
             "tag":{"fr":"PC", "en":"MB", "jp":"MB"},
             "name":{"fr":"Pont Champignon", "en":"Mushroom Bridge", "jp":"キノコブリッジ"},
-            "color":"#E1FF33",
+            "color":"#63BA18",
             "item":["bomb"],
             "tavid":{
                   "race":"https://www.youtube.com/watch?v=OGYjmGFAJE8",
@@ -267,7 +267,7 @@
       {
             "tag":{"fr":"CM", "en":"MC", "jp":"MC"},
             "name":{"fr":"Circuit Mario", "en":"Mario Circuit", "jp":"マリオサーキット"},
-            "color":"#FF3333",
+            "color":"#EF0000",
             "item":["chomp","piranha","goomba"],
             "tavid":{
                   "race":"https://www.youtube.com/watch?v=kUpQuASCdf4",
@@ -320,7 +320,7 @@
       {
             "tag":{"fr":"PD", "en":"DC", "jp":"DC"},
             "name":{"fr":"Paquebot Daisy", "en":"Daisy Cruiser", "jp":"デイジークルーザー"},
-            "color":"#FF9933",
+            "color":"#F7DE29",
             "item":[],
             "tavid":{
                   "race":"https://www.youtube.com/watch?v=3WzbwYSodwI&t=0s",
@@ -373,7 +373,7 @@
       {
             "tag":{"fr":"SW", "en":"WS", "jp":"WS"},
             "name":{"fr":"Stade Waluigi", "en":"Waluigi Stadium", "jp":"ワルイージスタジアム"},
-            "color":"#DA8EFF",
+            "color":"#5A219C",
             "item":["fireball"],
             "tavid":{
                   "race":"https://www.youtube.com/watch?v=X7Lzi4Vxk_c",
@@ -426,7 +426,7 @@
       {
             "tag":{"fr":"RS", "en":"SL", "jp":"SL"},
             "name":{"fr":"Royaume Sorbet", "en":"Sherbet Land", "jp":"シャーベットランド"},
-            "color":"#33FFF4",
+            "color":"#63FFE7",
             "item":["maskass","iceberg"],
             "tavid":{
                   "race":"https://www.youtube.com/watch?v=bhDAnH8geTc",
@@ -479,7 +479,7 @@
       {
             "tag":{"fr":"CV", "en":"MC", "jp":"MC"},
             "name":{"fr":"Champiville", "en":"Mushroom City", "jp":"キノコシティ"},
-            "color":"#D7FF33",
+            "color":"#B50021",
             "item":["bomb"],
             "tavid":{
                   "race":"https://www.youtube.com/watch?v=XE6lmRfYO1w",
@@ -532,7 +532,7 @@
       {
             "tag":{"fr":"CY", "en":"YC", "jp":"YS"},
             "name":{"fr":"Circuit Yoshi", "en":"Yoshi Circuit", "jp":"ヨッシーサーキット"},
-            "color":"#33FF3B",
+            "color":"#02AF09",
             "item":["piranha"],
             "tavid":{
                   "race":"https://www.youtube.com/watch?v=BFis4ZoFER0",
@@ -585,7 +585,7 @@
       {
             "tag":{"fr":"MDK", "en":"DKM", "jp":"DKM"},
             "name":{"fr":"Montagne DK", "en":"DK Mountain", "jp":"DKマウンテン"},
-            "color":"#E5832E",
+            "color":"#BF531A",
             "item":[],
             "tavid":{
                   "race":"https://www.youtube.com/watch?v=C5COhwXC48I",
@@ -638,7 +638,7 @@
       {
             "tag":{"fr":"AW", "en":"WC", "jp":"WC"},
             "name":{"fr":"Arène Wario", "en":"Wario Colosseum", "jp":"ワリオコロシアム"},
-            "color":"#FFE633",
+            "color":"#C639AD",
             "item":["fireball"],
             "tavid":{
                   "race":"https://www.youtube.com/watch?v=j2G5S5B3Cg8",
@@ -691,7 +691,7 @@
       {
             "tag":{"fr":"JDD", "en":"DDJ", "jp":"DDJ"},
             "name":{"fr":"Jungle Dino Dino", "en":"Dino Dino Jungle", "jp":"ディノディノジャングル"},
-            "color":"#99A6D5",
+            "color":"#84ADE7",
             "item":[],
             "tavid":{
                   "race":"https://www.youtube.com/watch?v=IBrlL2lxwBc",
@@ -744,7 +744,7 @@
       {
             "tag":{"fr":"CB", "en":"BC", "jp":"BC"},
             "name":{"fr":"Chateau de Bowser", "en":"Bowser's Castle", "jp":"クッパキャッスル"},
-            "color":"#ff0000",
+            "color":"#FF0000",
             "item":["fireball","thwomp"],
             "tavid":{
                   "race":"https://www.youtube.com/watch?v=kURLl6IuDuQ",
@@ -797,7 +797,7 @@
       {
             "tag":{"fr":"RAC", "en":"RR", "jp":"RR"},
             "name":{"fr":"Route Arc-en-Ciel", "en":"Rainbow Road", "jp":"レインボーロード"},
-            "color":"#FFC300",
+            "color":"#FFE00D",
             "item":[],
             "tavid":{
                   "race":"https://www.youtube.com/watch?v=c87BrKFJ84A",
